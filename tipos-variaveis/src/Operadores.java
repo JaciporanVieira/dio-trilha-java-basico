@@ -1,19 +1,18 @@
 public class Operadores {
     public static void main(String[] args) {
-        int numero1 = 1;
-        int numero2 = 2;
+        boolean condicao1=true;
 
-        boolean simNao = numero1 == numero2;
+        boolean condicao2=false;
 
-        if(numero1 < numero2) {
-            System.out.println("a nossa condição é verdadeira");
+        if(condicao1 && condicao2){
+            System.out.println("as duas condições são verdadeiras");
         }
 
-        System.out.println("numeroUm é igual a numeroDois? " + simNao);
+        if(condicao1 || condicao2){
+            System.out.println("uma das condições é verdadeira");
+        }
 
-        simNao = numero1 > numero2;
-
-        System.out.println("numeroUm é maior que numeroDois? " + simNao);
+            System.out.println("fim");
     }
 
 }
